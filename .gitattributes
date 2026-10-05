@@ -1,0 +1,33 @@
+* text=auto
+
+*.cs text diff=csharp
+*.csproj text
+*.sln text
+*.json text
+*.xml text
+*.props text
+*.targets text
+*.yml text
+*.yaml text
+*.txt text
+*.md text
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sh text eol=lf
+
+*.bin binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.dds binary
+*.pac binary
+*.gmo binary
+*.gms binary
+*.cpk binary
+*.bf binary
+*.bmd binary
+*.spd binary
+*.zip binary
+*.7z binary

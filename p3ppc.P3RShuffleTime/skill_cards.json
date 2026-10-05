@@ -1,0 +1,790 @@
+{
+  "_comment": "P3R Sword rank pools adapted to Skill Cards that exist in P3P. SkillCardIndex is the zero-based P3P Skill Card index. The native runtime item ID is 0x690 + SkillCardIndex, and vanilla uses that same ID for GetNumItem, SetItemNum, and GetItemName. Weights preserve P3R's relative drop weights among supported P3P cards. P3R-only skills with no P3P Skill Card are omitted.",
+  "Ranks": {
+    "1": [
+      {
+        "Name": "Power Slash",
+        "SkillCardIndex": 74,
+        "Weight": 20
+      },
+      {
+        "Name": "Bash",
+        "SkillCardIndex": 54,
+        "Weight": 20
+      },
+      {
+        "Name": "Holy Arrow",
+        "SkillCardIndex": 81,
+        "Weight": 20
+      },
+      {
+        "Name": "Single Shot",
+        "SkillCardIndex": 79,
+        "Weight": 20
+      },
+      {
+        "Name": "Dia",
+        "SkillCardIndex": 91,
+        "Weight": 10
+      }
+    ],
+    "2": [
+      {
+        "Name": "Agi",
+        "SkillCardIndex": 0,
+        "Weight": 16
+      },
+      {
+        "Name": "Bufu",
+        "SkillCardIndex": 13,
+        "Weight": 16
+      },
+      {
+        "Name": "Zio",
+        "SkillCardIndex": 19,
+        "Weight": 16
+      },
+      {
+        "Name": "Garu",
+        "SkillCardIndex": 7,
+        "Weight": 16
+      },
+      {
+        "Name": "Dia",
+        "SkillCardIndex": 91,
+        "Weight": 20
+      }
+    ],
+    "3": [
+      {
+        "Name": "Poisma",
+        "SkillCardIndex": 47,
+        "Weight": 6
+      },
+      {
+        "Name": "Marin Karin",
+        "SkillCardIndex": 36,
+        "Weight": 6
+      },
+      {
+        "Name": "Bewilder",
+        "SkillCardIndex": 38,
+        "Weight": 6
+      },
+      {
+        "Name": "Pulinpa",
+        "SkillCardIndex": 40,
+        "Weight": 6
+      },
+      {
+        "Name": "Evil Touch",
+        "SkillCardIndex": 42,
+        "Weight": 6
+      },
+      {
+        "Name": "Provoke",
+        "SkillCardIndex": 45,
+        "Weight": 6
+      },
+      {
+        "Name": "Life Drain",
+        "SkillCardIndex": 52,
+        "Weight": 5
+      },
+      {
+        "Name": "Spirit Drain",
+        "SkillCardIndex": 53,
+        "Weight": 3
+      },
+      {
+        "Name": "Hama",
+        "SkillCardIndex": 28,
+        "Weight": 3
+      },
+      {
+        "Name": "Mudo",
+        "SkillCardIndex": 32,
+        "Weight": 3
+      },
+      {
+        "Name": "Tarukaja",
+        "SkillCardIndex": 112,
+        "Weight": 5
+      },
+      {
+        "Name": "Rakukaja",
+        "SkillCardIndex": 116,
+        "Weight": 5
+      },
+      {
+        "Name": "Sukukaja",
+        "SkillCardIndex": 114,
+        "Weight": 5
+      },
+      {
+        "Name": "Tarunda",
+        "SkillCardIndex": 105,
+        "Weight": 5
+      },
+      {
+        "Name": "Rakunda",
+        "SkillCardIndex": 109,
+        "Weight": 5
+      },
+      {
+        "Name": "Sukunda",
+        "SkillCardIndex": 107,
+        "Weight": 5
+      },
+      {
+        "Name": "Rebellion",
+        "SkillCardIndex": 123,
+        "Weight": 5
+      },
+      {
+        "Name": "Foul Breath",
+        "SkillCardIndex": 50,
+        "Weight": 3
+      },
+      {
+        "Name": "Stagnant Air",
+        "SkillCardIndex": 51,
+        "Weight": 3
+      },
+      {
+        "Name": "Counter",
+        "SkillCardIndex": 208,
+        "Weight": 3
+      },
+      {
+        "Name": "Growth 1",
+        "SkillCardIndex": 217,
+        "Weight": 3
+      }
+    ],
+    "4": [
+      {
+        "Name": "Swift Strike",
+        "SkillCardIndex": 57,
+        "Weight": 5
+      },
+      {
+        "Name": "Arrow Rain",
+        "SkillCardIndex": 83,
+        "Weight": 5
+      },
+      {
+        "Name": "Media",
+        "SkillCardIndex": 94,
+        "Weight": 8
+      },
+      {
+        "Name": "Patra",
+        "SkillCardIndex": 98,
+        "Weight": 7
+      },
+      {
+        "Name": "Fire Break",
+        "SkillCardIndex": 125,
+        "Weight": 8
+      },
+      {
+        "Name": "Ice Break",
+        "SkillCardIndex": 126,
+        "Weight": 8
+      },
+      {
+        "Name": "Elec Break",
+        "SkillCardIndex": 128,
+        "Weight": 8
+      },
+      {
+        "Name": "Wind Break",
+        "SkillCardIndex": 127,
+        "Weight": 8
+      },
+      {
+        "Name": "Dodge Fire",
+        "SkillCardIndex": 182,
+        "Weight": 2
+      },
+      {
+        "Name": "Dodge Ice",
+        "SkillCardIndex": 184,
+        "Weight": 2
+      },
+      {
+        "Name": "Dodge Elec",
+        "SkillCardIndex": 188,
+        "Weight": 2
+      },
+      {
+        "Name": "Dodge Wind",
+        "SkillCardIndex": 186,
+        "Weight": 2
+      },
+      {
+        "Name": "Dodge Slash",
+        "SkillCardIndex": 176,
+        "Weight": 2
+      },
+      {
+        "Name": "Dodge Strike",
+        "SkillCardIndex": 178,
+        "Weight": 2
+      },
+      {
+        "Name": "Dodge Pierce",
+        "SkillCardIndex": 180,
+        "Weight": 2
+      },
+      {
+        "Name": "Regenerate 1",
+        "SkillCardIndex": 211,
+        "Weight": 4
+      },
+      {
+        "Name": "Invigorate 1",
+        "SkillCardIndex": 214,
+        "Weight": 4
+      },
+      {
+        "Name": "Hama Boost",
+        "SkillCardIndex": 247,
+        "Weight": 3
+      },
+      {
+        "Name": "Mudo Boost",
+        "SkillCardIndex": 248,
+        "Weight": 3
+      }
+    ],
+    "5": [
+      {
+        "Name": "Maragi",
+        "SkillCardIndex": 3,
+        "Weight": 6
+      },
+      {
+        "Name": "Mabufu",
+        "SkillCardIndex": 16,
+        "Weight": 6
+      },
+      {
+        "Name": "Mazio",
+        "SkillCardIndex": 22,
+        "Weight": 6
+      },
+      {
+        "Name": "Magaru",
+        "SkillCardIndex": 10,
+        "Weight": 6
+      },
+      {
+        "Name": "Mahama",
+        "SkillCardIndex": 29,
+        "Weight": 5
+      },
+      {
+        "Name": "Mamudo",
+        "SkillCardIndex": 33,
+        "Weight": 5
+      },
+      {
+        "Name": "Megido",
+        "SkillCardIndex": 25,
+        "Weight": 2
+      },
+      {
+        "Name": "Fire Boost",
+        "SkillCardIndex": 192,
+        "Weight": 5
+      },
+      {
+        "Name": "Ice Boost",
+        "SkillCardIndex": 194,
+        "Weight": 5
+      },
+      {
+        "Name": "Elec Boost",
+        "SkillCardIndex": 196,
+        "Weight": 5
+      },
+      {
+        "Name": "Wind Boost",
+        "SkillCardIndex": 198,
+        "Weight": 5
+      },
+      {
+        "Name": "Ailment Boost",
+        "SkillCardIndex": 246,
+        "Weight": 4
+      }
+    ],
+    "6": [
+      {
+        "Name": "Fatal End",
+        "SkillCardIndex": 64,
+        "Weight": 5
+      },
+      {
+        "Name": "Assault Dive",
+        "SkillCardIndex": 55,
+        "Weight": 5
+      },
+      {
+        "Name": "Torrent Shot",
+        "SkillCardIndex": 82,
+        "Weight": 5
+      },
+      {
+        "Name": "Getsu-ei",
+        "SkillCardIndex": 65,
+        "Weight": 4
+      },
+      {
+        "Name": "Zan-ei",
+        "SkillCardIndex": 66,
+        "Weight": 4
+      },
+      {
+        "Name": "Agilao",
+        "SkillCardIndex": 1,
+        "Weight": 6
+      },
+      {
+        "Name": "Bufula",
+        "SkillCardIndex": 14,
+        "Weight": 6
+      },
+      {
+        "Name": "Zionga",
+        "SkillCardIndex": 20,
+        "Weight": 6
+      },
+      {
+        "Name": "Garula",
+        "SkillCardIndex": 8,
+        "Weight": 6
+      },
+      {
+        "Name": "Hamaon",
+        "SkillCardIndex": 30,
+        "Weight": 3
+      },
+      {
+        "Name": "Mudoon",
+        "SkillCardIndex": 34,
+        "Weight": 3
+      },
+      {
+        "Name": "Diarama",
+        "SkillCardIndex": 92,
+        "Weight": 5
+      },
+      {
+        "Name": "Recarm",
+        "SkillCardIndex": 103,
+        "Weight": 2
+      },
+      {
+        "Name": "Counterstrike",
+        "SkillCardIndex": 209,
+        "Weight": 2
+      },
+      {
+        "Name": "Apt Pupil",
+        "SkillCardIndex": 225,
+        "Weight": 2
+      },
+      {
+        "Name": "Sharp Student",
+        "SkillCardIndex": 224,
+        "Weight": 2
+      },
+      {
+        "Name": "Growth 2",
+        "SkillCardIndex": 218,
+        "Weight": 2
+      }
+    ],
+    "7": [
+      {
+        "Name": "Evade Slash",
+        "SkillCardIndex": 177,
+        "Weight": 5
+      },
+      {
+        "Name": "Evade Strike",
+        "SkillCardIndex": 179,
+        "Weight": 5
+      },
+      {
+        "Name": "Evade Pierce",
+        "SkillCardIndex": 181,
+        "Weight": 5
+      },
+      {
+        "Name": "Evade Fire",
+        "SkillCardIndex": 183,
+        "Weight": 2
+      },
+      {
+        "Name": "Evade Ice",
+        "SkillCardIndex": 185,
+        "Weight": 2
+      },
+      {
+        "Name": "Evade Elec",
+        "SkillCardIndex": 189,
+        "Weight": 2
+      },
+      {
+        "Name": "Evade Wind",
+        "SkillCardIndex": 187,
+        "Weight": 2
+      },
+      {
+        "Name": "Auto-Tarukaja",
+        "SkillCardIndex": 220,
+        "Weight": 5
+      },
+      {
+        "Name": "Auto-Rakukaja",
+        "SkillCardIndex": 221,
+        "Weight": 5
+      },
+      {
+        "Name": "Auto-Sukukaja",
+        "SkillCardIndex": 222,
+        "Weight": 5
+      },
+      {
+        "Name": "Regenerate 2",
+        "SkillCardIndex": 212,
+        "Weight": 5
+      },
+      {
+        "Name": "Invigorate 2",
+        "SkillCardIndex": 215,
+        "Weight": 5
+      },
+      {
+        "Name": "Fire Boost",
+        "SkillCardIndex": 192,
+        "Weight": 3
+      },
+      {
+        "Name": "Ice Boost",
+        "SkillCardIndex": 194,
+        "Weight": 3
+      },
+      {
+        "Name": "Elec Boost",
+        "SkillCardIndex": 196,
+        "Weight": 3
+      },
+      {
+        "Name": "Wind Boost",
+        "SkillCardIndex": 198,
+        "Weight": 3
+      },
+      {
+        "Name": "Apt Pupil",
+        "SkillCardIndex": 225,
+        "Weight": 4
+      },
+      {
+        "Name": "Growth 2",
+        "SkillCardIndex": 218,
+        "Weight": 4
+      },
+      {
+        "Name": "Divine Grace",
+        "SkillCardIndex": 232,
+        "Weight": 5
+      }
+    ],
+    "8": [
+      {
+        "Name": "Blade of Fury",
+        "SkillCardIndex": 69,
+        "Weight": 5
+      },
+      {
+        "Name": "Herculean Strike",
+        "SkillCardIndex": 77,
+        "Weight": 5
+      },
+      {
+        "Name": "Myriad Arrows",
+        "SkillCardIndex": 84,
+        "Weight": 5
+      },
+      {
+        "Name": "Poison Arrow",
+        "SkillCardIndex": 90,
+        "Weight": 4
+      },
+      {
+        "Name": "Maragilao",
+        "SkillCardIndex": 4,
+        "Weight": 7
+      },
+      {
+        "Name": "Mabufula",
+        "SkillCardIndex": 17,
+        "Weight": 7
+      },
+      {
+        "Name": "Mazionga",
+        "SkillCardIndex": 23,
+        "Weight": 7
+      },
+      {
+        "Name": "Magarula",
+        "SkillCardIndex": 11,
+        "Weight": 7
+      },
+      {
+        "Name": "Poison Mist",
+        "SkillCardIndex": 48,
+        "Weight": 3
+      },
+      {
+        "Name": "Virus Breath",
+        "SkillCardIndex": 49,
+        "Weight": 2
+      },
+      {
+        "Name": "Sexy Dance",
+        "SkillCardIndex": 37,
+        "Weight": 3
+      },
+      {
+        "Name": "Eerie Sound",
+        "SkillCardIndex": 39,
+        "Weight": 3
+      },
+      {
+        "Name": "Tentarafoo",
+        "SkillCardIndex": 41,
+        "Weight": 3
+      },
+      {
+        "Name": "Evil Smile",
+        "SkillCardIndex": 43,
+        "Weight": 3
+      },
+      {
+        "Name": "Infuriate",
+        "SkillCardIndex": 46,
+        "Weight": 3
+      },
+      {
+        "Name": "Megidola",
+        "SkillCardIndex": 26,
+        "Weight": 1
+      },
+      {
+        "Name": "Dekaja",
+        "SkillCardIndex": 120,
+        "Weight": 4
+      },
+      {
+        "Name": "Dekunda",
+        "SkillCardIndex": 111,
+        "Weight": 4
+      },
+      {
+        "Name": "Resist Slash",
+        "SkillCardIndex": 133,
+        "Weight": 1
+      },
+      {
+        "Name": "Resist Strike",
+        "SkillCardIndex": 137,
+        "Weight": 1
+      },
+      {
+        "Name": "Resist Pierce",
+        "SkillCardIndex": 141,
+        "Weight": 1
+      },
+      {
+        "Name": "Resist Fire",
+        "SkillCardIndex": 145,
+        "Weight": 1
+      },
+      {
+        "Name": "Resist Ice",
+        "SkillCardIndex": 149,
+        "Weight": 1
+      },
+      {
+        "Name": "Resist Elec",
+        "SkillCardIndex": 153,
+        "Weight": 1
+      },
+      {
+        "Name": "Resist Wind",
+        "SkillCardIndex": 157,
+        "Weight": 1
+      },
+      {
+        "Name": "Resist Light",
+        "SkillCardIndex": 161,
+        "Weight": 1
+      },
+      {
+        "Name": "Resist Dark",
+        "SkillCardIndex": 164,
+        "Weight": 1
+      }
+    ],
+    "9": [
+      {
+        "Name": "Matarukaja",
+        "SkillCardIndex": 113,
+        "Weight": 9
+      },
+      {
+        "Name": "Marakukaja",
+        "SkillCardIndex": 117,
+        "Weight": 9
+      },
+      {
+        "Name": "Masukukaja",
+        "SkillCardIndex": 115,
+        "Weight": 9
+      },
+      {
+        "Name": "Matarunda",
+        "SkillCardIndex": 106,
+        "Weight": 9
+      },
+      {
+        "Name": "Marakunda",
+        "SkillCardIndex": 110,
+        "Weight": 9
+      },
+      {
+        "Name": "Masukunda",
+        "SkillCardIndex": 108,
+        "Weight": 9
+      },
+      {
+        "Name": "Revolution",
+        "SkillCardIndex": 124,
+        "Weight": 6
+      },
+      {
+        "Name": "Mediarama",
+        "SkillCardIndex": 95,
+        "Weight": 6
+      },
+      {
+        "Name": "Me Patra",
+        "SkillCardIndex": 99,
+        "Weight": 8
+      },
+      {
+        "Name": "High Counter",
+        "SkillCardIndex": 210,
+        "Weight": 5
+      },
+      {
+        "Name": "Growth 3",
+        "SkillCardIndex": 219,
+        "Weight": 5
+      },
+      {
+        "Name": "Endure",
+        "SkillCardIndex": 233,
+        "Weight": 2
+      },
+      {
+        "Name": "Regenerate 3",
+        "SkillCardIndex": 213,
+        "Weight": 2
+      },
+      {
+        "Name": "Invigorate 3",
+        "SkillCardIndex": 216,
+        "Weight": 2
+      }
+    ],
+    "10": [
+      {
+        "Name": "Tempest Slash",
+        "SkillCardIndex": 71,
+        "Weight": 5
+      },
+      {
+        "Name": "Gigantic Fist",
+        "SkillCardIndex": 60,
+        "Weight": 5
+      },
+      {
+        "Name": "Cruel Attack",
+        "SkillCardIndex": 88,
+        "Weight": 5
+      },
+      {
+        "Name": "Agidyne",
+        "SkillCardIndex": 2,
+        "Weight": 8
+      },
+      {
+        "Name": "Bufudyne",
+        "SkillCardIndex": 15,
+        "Weight": 8
+      },
+      {
+        "Name": "Ziodyne",
+        "SkillCardIndex": 21,
+        "Weight": 8
+      },
+      {
+        "Name": "Garudyne",
+        "SkillCardIndex": 9,
+        "Weight": 8
+      },
+      {
+        "Name": "Mahamaon",
+        "SkillCardIndex": 31,
+        "Weight": 3
+      },
+      {
+        "Name": "Mamudoon",
+        "SkillCardIndex": 35,
+        "Weight": 3
+      },
+      {
+        "Name": "Ghastly Wail",
+        "SkillCardIndex": 44,
+        "Weight": 2
+      },
+      {
+        "Name": "Diarahan",
+        "SkillCardIndex": 93,
+        "Weight": 8
+      },
+      {
+        "Name": "Samarecarm",
+        "SkillCardIndex": 104,
+        "Weight": 5
+      },
+      {
+        "Name": "Tetrakarn",
+        "SkillCardIndex": 121,
+        "Weight": 5
+      },
+      {
+        "Name": "Makarakarn",
+        "SkillCardIndex": 122,
+        "Weight": 5
+      }
+    ]
+  }
+}

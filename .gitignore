@@ -1,0 +1,33 @@
+# Visual Studio and IDE state
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+[Pp]ublish/
+TestResults/
+
+# NuGet and generated packages
+packages/
+.nuget/
+*.nupkg
+*.snupkg
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+*.cache
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
