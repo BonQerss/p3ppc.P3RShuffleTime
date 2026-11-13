@@ -12,8 +12,10 @@
     <OutputPath>$(RELOADEDIIMODS)/p3ppc.P3RShuffleTime</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="ModConfig.json"><CopyToOutputDirectory>Always</CopyToOutputDirectory></Content>
-    <Content Include="skill_cards.json"><CopyToOutputDirectory>Always</CopyToOutputDirectory></Content>
+    <Content Include="ModConfig.json" CopyToOutputDirectory="Always" />
+    <Content Include="skill_cards.json" CopyToOutputDirectory="Always" />
+    <Content Include="FEmulator\**\*.msg" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="FEmulator\PAK\**\*.bmd" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Reloaded.Mod.Interfaces" Version="2.4.0" ExcludeAssets="runtime" />

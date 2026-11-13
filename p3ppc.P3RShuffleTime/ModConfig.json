@@ -1,7 +1,7 @@
 {
   "ModId": "p3ppc.P3RShuffleTime",
   "ModName": "P3R Shuffle Time",
-  "ModAuthor": "NORADEX",
+  "ModAuthor": "Noradex",
   "ModVersion": "1.0.0",
   "ModDescription": "Adds Shuffle Time from Reload with free card picks and bonus Arcana EXP.",
   "ModDll": "p3ppc.P3RShuffleTime.dll",
@@ -15,6 +15,14 @@
   "HasExports": false,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "p3ppc.P3RShuffleTime.ReleaseMetadata.json",
+  "IgnoreRegexes": [
+    ".*\\.json"
+  ],
+  "IncludeRegexes": [
+    "\\.deps\\.json",
+    "\\.runtimeconfig\\.json",
+    "ModConfig\\.json"
+  ],
   "PluginData": {
     "GitHubDependencies": {
       "IdToConfigMap": {
@@ -28,18 +36,21 @@
           "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
         }
       }
+    },
+    "GameBanana": {
+      "ItemType": "Mod",
+      "ItemId": 739893
     }
   },
   "IsUniversalMod": false,
   "ModDependencies": [
-    "reloaded.sharedlib.hooks",
-    "Reloaded.Memory.SigScan.ReloadedII"
+    "p5rpc.modloader",
+    "Reloaded.Memory.SigScan.ReloadedII",
+    "reloaded.sharedlib.hooks"
   ],
   "OptionalDependencies": [],
   "SupportedAppId": [
     "p3p.exe"
   ],
-  "ProjectUrl": "",
-  "CreatorUrl": "",
-  "IsSeparator": false
+  "ProjectUrl": ""
 }
